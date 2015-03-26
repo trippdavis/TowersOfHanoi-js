@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Towers of Hanois</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    <script src="../jquery/external/jquery/jquery.js"></script>
+    <script src="../jquery/jquery-ui.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/hanoi-core.js"></script>
+    <script src="../js/hanoi-view.js"></script>
+
+    <div class="towers">
+    </div>
+    <script>
+      var game = new Hanoi.Game();
+      var $gameDiv = $('.towers');
+      new Hanoi.View(game, $gameDiv);
+    </script>
+  </body>
+</html>

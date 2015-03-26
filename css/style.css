@@ -1,0 +1,30 @@
+.tower {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: #000;
+  margin: 10px;
+  transform: rotate(180deg);
+}
+
+.towers:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.disk {
+  height: 20px;
+  background: #fff;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h-disk {
+  height: 20px;
+  background: fuchsia;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
